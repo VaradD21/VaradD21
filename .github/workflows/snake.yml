@@ -6,11 +6,14 @@ on:
   workflow_dispatch:          # Allows manual trigger
   push:
     branches:
-      - main                  # Runs on push to main (adjust branch if needed)
+      - main                  # Runs on push to main (adjust if your default is 'master')
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write          # <-- correct indentation here
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
