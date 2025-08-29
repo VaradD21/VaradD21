@@ -70,13 +70,11 @@
 ### <h4 align="center"> My Status <h4>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VaradD21&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=VaradD21&show_icons=true&theme=dark" alt="GitHub Stats" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VaradD21&layout=compact&langs_count=8&theme=dracula" alt="Top Languages" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/VaradD21/VaradD21/output/snake.svg" alt="Snake animation" />
-</p>
-
+### <h3 align="center"> Contributions <h3>
+![My GitHub contributions](https://raw.githubusercontent.com/<USERNAME>/<USERNAME>/main/profile-3d-contrib/contributions.svg)
 
