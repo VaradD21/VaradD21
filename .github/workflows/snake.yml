@@ -6,23 +6,24 @@ on:
   workflow_dispatch:          # Allows manual trigger
   push:
     branches:
-      - main                  # Runs on push to main (adjust if your default is 'master')
+      - main                  # Runs on push to main (adjust branch if needed)
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write          # <-- correct indentation here
+      contents: write
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake animation
+      - name: Generate Snake animation (dark theme)
         uses: Platane/snk@v3
         with:
           github_user_name: VaradD21
-          outputs: dist/snake.svg
+          svg_out_path: dist/snake.svg
+          palette: "github-dark"  
 
       - name: Push Snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
