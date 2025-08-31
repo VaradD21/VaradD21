@@ -2,7 +2,7 @@ name: Generate contribution chart
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight
+    - cron: "0 0 * * *"   
   workflow_dispatch:
 
 jobs:
@@ -15,13 +15,12 @@ jobs:
       - name: Generate contribution chart
         uses: yoshi389111/github-profile-3d-contrib@0.8.0
         with:
-          username: "VaradD21"
-          theme: "github"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update contribution chart"
+          git commit -m "Update contribution chart" || echo "No changes to commit"
           git push
