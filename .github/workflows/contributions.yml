@@ -15,7 +15,7 @@ jobs:
       - name: Generate contribution chart
         uses: yoshi389111/github-profile-3d-contrib@0.8.0
         with:
-          username: <USERNAME>
+          username: "VaradD21"
           theme: "github"
 
       - name: Push changes
