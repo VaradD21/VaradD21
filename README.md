@@ -8,7 +8,7 @@
   Hi! I'm Varad Digraskar
 </h1>
 <p align="center">
-   Student @ M.G.M College of Engineering, pursuing a B.Tech in Information Technology, 3rd year.
+   Student @ M.G.M College of Engineering, pursuing  B.Tech in Information Technology, 3rd year.
 </p>
 
 
@@ -76,5 +76,5 @@
 </p>
 
 ### <h3 align="center"> Contributions <h3>
-![My GitHub contributions](https://raw.githubusercontent.com/<USERNAME>/<USERNAME>/main/profile-3d-contrib/contributions.svg)
+![My GitHub contributions](https://raw.githubusercontent.com/VaradD21/VaradD21/main/profile-3d-contrib/contributions.svg)
 
