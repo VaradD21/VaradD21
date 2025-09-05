@@ -75,6 +75,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VaradD21&layout=compact&langs_count=8&theme=dracula" alt="Top Languages" />
 </p>
 
-### <h3 align="center"> Contributions <h3>
-![My GitHub contributions](https://raw.githubusercontent.com/VaradD21/VaradD21/main/profile-3d-contrib/contributions.svg)
-
+<!--### <h3 align="center"> Contributions <h3>
+//![My GitHub contributions](https://raw.githubusercontent.com/VaradD21/VaradD21/main/profile-3d-contrib/contributions.svg)
+-->
